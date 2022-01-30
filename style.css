@@ -42,3 +42,14 @@ so translate will move the icon to that point */
   margin-top: 5px;
   width: 100%;
 }
+
+/* Media Query for smartphones */
+@media screen and (max-width: 600px){
+  h1{
+    font-size: .8rem;
+
+  }
+  .image-container {
+    margin: 10px 10%;
+  }
+}
